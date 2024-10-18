@@ -38,5 +38,8 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 2. Reduce Parasitic Capacitance: Parasitic effects may also be contributing to the rapid voltage decay. Ensure the layout is optimized for minimal parasitics.
 
 
+# Datasheet
 
+
+[datsheet sample and hold.xlsx](https://github.com/user-attachments/files/17428885/datsheet.sample.and.hold.xlsx)
 
