@@ -59,9 +59,7 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 
 
 
-![Gain error](https://github.com/user-attachments/assets/c3a27c72-221c-4e31-9204-6d3e4bfee6dc)
 
-Gain error
 
 
 
