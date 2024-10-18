@@ -42,4 +42,5 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 
 
 | Paramater | Condition | Min | Typ | Max |
+|-----------|-----------|-----|-----|-----|
 
