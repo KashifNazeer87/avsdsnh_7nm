@@ -41,5 +41,5 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 # Datasheet
 
 
-[datsheet sample and hold.xlsx](https://github.com/user-attachments/files/17428885/datsheet.sample.and.hold.xlsx)
+| Paramater | Condition | Min | Typ | Max |
 
