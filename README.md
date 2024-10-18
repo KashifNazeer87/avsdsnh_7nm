@@ -27,6 +27,11 @@ Output Signal (Vout):
 The signal is held at a node and routed to the output terminal Vout.
 The final sampled voltage would appear here, and droop/leakage behavior might be monitored at this node.
 
+# Plot showing input being sampled and held at output along with clock signal
+
+![sampleandhold](https://github.com/user-attachments/assets/9afef062-7d8f-44b3-b5cc-639df24016a2)
+
+
 
 
 
