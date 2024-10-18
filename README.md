@@ -55,3 +55,16 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 |Acquisiton Time              |    27 deg C         |      |     |      | |
 |Aperture time              |  27 deg C           |      | 1.49    |      |ns |
 |Droop              |  27 deg C           | 0.2     | 0.217     |  0.237    | mV |
+
+
+![offset temp](https://github.com/user-attachments/assets/a5d54da7-7e80-4821-9e5d-1c3a7c595693)
+
+Input Bias current
+
+![Gain error](https://github.com/user-attachments/assets/c3a27c72-221c-4e31-9204-6d3e4bfee6dc)
+
+Gain error
+
+
+
+
