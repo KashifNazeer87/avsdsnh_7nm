@@ -42,6 +42,8 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 
 2. Reduce Parasitic Capacitance: Parasitic effects may also be contributing to the rapid voltage decay. Ensure the layout is optimized for minimal parasitics.
 
+3. Use alias filter to get rid of alias error.
+
 
 # Datasheet
 
