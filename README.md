@@ -31,6 +31,11 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 
 ![sampleandhold](https://github.com/user-attachments/assets/9afef062-7d8f-44b3-b5cc-639df24016a2)
 
+# Scope for improvement 
+
+1. Improve Transistor Sizing: Optimize the sizing of the sampling and holding transistors to reduce leakage and ensure proper switching.
+
+2. Reduce Parasitic Capacitance: Parasitic effects may also be contributing to the rapid voltage decay. Ensure the layout is optimized for minimal parasitics.
 
 
 
