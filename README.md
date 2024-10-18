@@ -44,8 +44,8 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 | Paramater    | Condition  | Min  | Typ | Max  | Unit |
 |--------------|------------|------|-----|------|------|
 |Input offset Voltage              |       27 deg C     |      | 0.35    |      |mV |
-|Input Bias Current             |    0-110 deg C         |      | 1.22     | 1.86     |nA |
-|Input Impedance              |     27 deg C        |      |     | 0.286     |Mohm | 
+|Input Bias Current             |    0-110 deg C         |  -14.9    | -18.8    | -33.5     |pA |
+|Input Impedance              |     27 deg C        |      |  186.1   |    |Mohm | 
 |Gain Error              |     27 deg C        |      | 1.8 E-6    |      | % |
 |Feedthrough reduction ratio              |    27 deg C         |      |  10   |      | dB|
 |Output impedance              |     27 deg C        |      |  1.05   | 58.4     | Mohm |
@@ -57,9 +57,7 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 |Droop              |  27 deg C           | 0.2     | 0.217     |  0.237    | mV |
 
 
-![offset temp](https://github.com/user-attachments/assets/a5d54da7-7e80-4821-9e5d-1c3a7c595693)
 
-Input Bias current
 
 ![Gain error](https://github.com/user-attachments/assets/c3a27c72-221c-4e31-9204-6d3e4bfee6dc)
 
