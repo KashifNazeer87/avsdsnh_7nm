@@ -49,7 +49,7 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 |Gain Error              |     27 deg C        |      | 1.8 E-6    |      | % |
 |Feedthrough reduction ratio              |    27 deg C         |      |  10   |      | dB|
 |Output impedance              |     27 deg C        |      |  1.05   | 58.4     | Mohm |
-|HOLD Step              |      27 deg C       |      |     |      | |
+|HOLD Step              |      27 deg C       |      | 0.05     |      |ns |
 |Supply current              |      27 deg C       | 0.0135     |     |  3.18E-5    |mA |
 |Logic and Logic reference current              |    27 deg C         |   2.79   |     |  3.09    |nA |
 |Acquisiton Time              |    27 deg C         |      |     |      | |
