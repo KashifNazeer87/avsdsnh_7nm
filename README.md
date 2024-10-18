@@ -41,13 +41,17 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 # Datasheet
 
 
-| Paramater    | Condition  | Min  | Typ | Max  |
-|--------------|------------|------|-----|------|
-|Input offset Voltage              |            |      |     |      |
-|              |            |      |     |      |
-|              |            |      |     |      |
-|              |            |      |     |      |
-|              |            |      |     |      |
-|              |            |      |     |      |
-|              |            |      |     |      |
-|              |            |      |     |      |
+| Paramater    | Condition  | Min  | Typ | Max  | Unit |
+|--------------|------------|------|-----|------|------|
+|Input offset Voltage              |       27 deg C     |      | 0.35    |      |mV |
+|Input Bias Current             |    0-110 deg C         |      | 1.22     | 1.86     |nA |
+|Input Impedance              |     27 deg C        |      |     | 0.286     |Mohm | 
+|Gain Error              |     27 deg C        |      | 1.8 E-6    |      | % |
+|Feedthrough reduction ratio              |    27 deg C         |      |  10   |      | dB|
+|Output impedance              |     27 deg C        |      |  1.05   | 58.4     | Mohm |
+|HOLD Step              |      27 deg C       |      |     |      | |
+|Supply current              |      27 deg C       | 0.0135     |     |  3.18E-5    |mA |
+|Logic and Logic reference current              |    27 deg C         |   2.79   |     |  3.09    |nA |
+|Acquisiton Time              |    27 deg C         |      |     |      | |
+|Aperture time              |  27 deg C           |      | 1.49    |      |ns |
+|Droop              |  27 deg C           | 0.2     | 0.217     |  0.237    | mV |
