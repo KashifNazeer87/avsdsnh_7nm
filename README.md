@@ -29,7 +29,8 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 
 # Plot showing input being sampled and held at output along with clock signal
 
-![sampleandhold4](https://github.com/user-attachments/assets/10e9f8a7-5262-40d8-95c4-2af897fa49d6)
+![sampleandhold](https://github.com/user-attachments/assets/fe18f869-0d1b-4f1c-bed4-04aa3bfc2f0b)
+
 
 
 
