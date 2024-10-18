@@ -41,6 +41,13 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 # Datasheet
 
 
-| Paramater | Condition | Min | Typ | Max |
-|-----------|-----------|-----|-----|-----|
-
+| Paramater    | Condition  | Min  | Typ | Max  |
+|--------------|------------|------|-----|------|
+|Input offset Voltage              |            |      |     |      |
+|              |            |      |     |      |
+|              |            |      |     |      |
+|              |            |      |     |      |
+|              |            |      |     |      |
+|              |            |      |     |      |
+|              |            |      |     |      |
+|              |            |      |     |      |
