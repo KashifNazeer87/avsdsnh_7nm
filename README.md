@@ -264,6 +264,7 @@ To attain their values, we use print command and find the current supplied by th
 # References:
 
 1. [Analog Fundamentals: How Sample and Hold Circuits Work and Ensure ADC Accuracy](https://www.digikey.com/en/articles/analog-fundamentals-sample-and-hold-circuits-work-adc-accuracy)
+2. [CMOS switched-op-amp-based sample-and-hold circuit](https://www.researchgate.net/publication/2978189_CMOS_switched-op-amp-based_sample-and-hold_circuit)
 
 
 # Acknowledgement
