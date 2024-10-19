@@ -31,7 +31,8 @@ This table summarizes the key parameters and operating conditions of the designe
 
 A bootstrapped Sample and Hold (S&H) circuit is an enhanced version of the traditional sample and hold circuit that uses bootstrap techniques to improve the performance of the switch, particularly in terms of maintaining a high and stable switch-on voltage. This allows the circuit to minimize charge injection, improve linearity, and maintain signal integrity, even when operating at low supply voltages, such as those common in advanced technologies like 7nm FinFET.
 
-![bootstrapping circuit for sample and hold](https://github.com/user-attachments/assets/b6cd614c-8821-4b99-ac0c-c68629fc2007)
+![final circuitcopy](https://github.com/user-attachments/assets/a1e18ab9-6180-4511-90a6-61757a99efe0)
+
 
 # Bootstrap sample and hold circuit key components:
 
