@@ -1,4 +1,4 @@
-This repository contains information regarding characterization of a bootstrap switch implementation of sample and hold while utilizing 7nm finFET switches.
+This repository contains information regarding characterization of a bootstrap switch implementation of sample and hold while utilizing 7nm finFET switches. An emphasis has been made on functionality.
 
 # Introduction 
 A Sample and Hold (S&H) circuit is an electronic circuit that captures (or "samples") the value of an analog signal at a specific point in time and holds that value for a certain period, allowing it to be processed or converted later. It is an essential component in many analog-to-digital conversion systems (ADCs), where continuous-time analog signals need to be converted into discrete-time signals for further digital processing.
