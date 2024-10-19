@@ -263,7 +263,7 @@ To attain their values, we use print command and find the current supplied by th
 
 # References:
 
-1. [Analog Fundamentals: How Sample and Hold Circuits Work and Ensure ADC Accuracy]https://www.digikey.com/en/articles/analog-fundamentals-sample-and-hold-circuits-work-adc-accuracy
+1. [Analog Fundamentals: How Sample and Hold Circuits Work and Ensure ADC Accuracy](https://www.digikey.com/en/articles/analog-fundamentals-sample-and-hold-circuits-work-adc-accuracy)
 
 
 # Acknowledgement
