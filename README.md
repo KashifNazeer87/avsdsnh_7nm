@@ -183,7 +183,29 @@ Gain Error can be found by applying the following formula:
 
 Gain Error = ((Vout/Vin) - 1 ) x 100%
 
+**9. Feedthrough reduction ratio**
 
+Feedthrough reduction ratio in a Sample and Hold (S&H) circuit refers to the circuit's ability to minimize the unintended passage of the input signal to the output during the hold phase. Feedthrough occurs when the input signal directly couples to the output even when the sampling switch is off (during the hold phase), leading to signal degradation or errors in the sampled output.
+
+Feedthrough can be caused by parasitic capacitances, such as the gate-drain and gate-source capacitances in the MOSFET switch, or other stray capacitances that allow a portion of the input signal to "leak" to the output, bypassing the sampling capacitor.
+
+*Analytically*
+
+Feedthrough Reduction Ratio = 10 x log10(Vout,feedthrough/Vin)
+
+Where Vin              = input voltage
+      Vout,feedthrough = amplitude of the feedthrough signal at the output during the hold phase
+
+      Vout,feedthrough can be found upon analysing the hold phase.
+
+      Vout,feedthrough = Vout - Vheld
+
+      where Vheld is value which was help immediately 
+
+      This can be inferred from the characteristic curve itself.
+
+      However, for clarity one could opt to plot output and clock curves together.
+      
 # Scope for improvement 
 
 1. Improve Transistor Sizing: Optimize the sizing of the sampling and holding transistors to reduce leakage and ensure proper switching.
