@@ -104,11 +104,17 @@ In one time constant (𝜏), the output settles to about 63% of the final value.
 Voltage droop in a Sample and Hold (S&H) circuit refers to the gradual decrease in the voltage stored on the holding capacitor during the hold phase. This droop occurs because of various leakage mechanisms that slowly discharge the capacitor, causing the output voltage to deviate from the initially sampled value over time.
 
 *Analytically* 
+
 Vhold(t) = Vinitial(t) x e^(-t/RC)
+
 Where,
+
 R           =  The equivalent resistance due to leakage paths and load impedance.
+
 C           = The capacitance of the holding capacitor.
+
 Vhold(t)    =  is the voltage on the capacitor at time t.
+
 Vinitial(t) = The initial voltage stored on the capacitor.
  
  
