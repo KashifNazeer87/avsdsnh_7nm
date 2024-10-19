@@ -159,7 +159,29 @@ Input bias current is often measured across a temperature range because it is hi
 
  ![offset temp](https://github.com/user-attachments/assets/74913764-3921-4578-bb47-1c1169a93021)
 
+ **7. Input Impedance:**
 
+ Input impedance of a Sample and Hold (S&H) circuit refers to the impedance seen by the signal source when connected to the input of the S&H circuit. It plays a crucial role in determining how the signal source interacts with the circuit and affects the accuracy of the sampled signal.
+
+ *Analytical approach*
+
+ Zin = Vin/Iin
+
+ where 
+
+ Zin= input impedance
+ Vin = input voltage
+ Iin= input current
+
+ **8. Gain Error**
+
+ Gain error in a Sample and Hold (S&H) circuit refers to the deviation between the actual gain of the circuit and the ideal gain, which affects the accuracy of the sampled output signal relative to the input. In an ideal S&H circuit, the output should exactly replicate the input signal during the hold phase, with a gain of 1 (unity gain). However, various non-idealities can cause the actual gain to differ from this ideal value, leading to gain error.
+
+*Analytically*
+
+Gain Error can be found by applying the following formula:
+
+Gain Error = ((Vout/Vin) - 1 ) x 100%
 
 
 # Scope for improvement 
