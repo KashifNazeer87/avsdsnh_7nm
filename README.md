@@ -89,8 +89,9 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 
 # Acknowledgement
 
-. Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
-. Dr. Skandha Deepsita, Teaching Assistant, VLSI System Design (VSD) Corp. Pvt. Ltd.
+- Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+
+- Dr. Skandha Deepsita, Teaching Assistant, VLSI System Design (VSD) Corp. Pvt. Ltd.
 
 
 
