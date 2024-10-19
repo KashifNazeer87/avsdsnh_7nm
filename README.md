@@ -118,7 +118,22 @@ Vhold(t)    =  is the voltage on the capacitor at time t.
 Vinitial(t) = The initial voltage stored on the capacitor.
  
  
+**5. Input Offset Voltage:**
+In a Sample and Hold (S&H) circuit, input offset voltage refers to the small voltage difference that may appear at the input due to imperfections in the switches, buffer amplifiers, or other active components (such as operational amplifiers) used in the circuit. This offset voltage results in a slight error in the sampled signal, causing the stored voltage on the holding capacitor to deviate from the actual input signal voltage.
 
+From visual inspection at zero input the output at 0 input is noted.
+
+Alternatively
+
+*Analytical approach*
+We are assuming unity gain for the buffer.
+Vos = Vout/ Av
+
+Where Vos is the offset voltage
+
+Av is Gain of the buffer.
+
+Vout is the output voltage.
 
 
 
