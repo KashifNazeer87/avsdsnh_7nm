@@ -18,7 +18,7 @@ This table summarizes the key parameters and operating conditions of the designe
 |Gain Error              |     27 deg C        |      | 1.8 E-6    |      | % |
 |Feedthrough reduction ratio              |    27 deg C         |      |  10   |      | dB|
 |Output impedance              |     27 deg C        |      |  1.05   | 58.4     | Mohm |
-|HOLD Step              |      27 deg C       |      | 0.05     |      |ns |
+|HOLD Step              |      27 deg C       |      | 0.01     |      |mV |
 |Supply current              |      27 deg C       | 0.0135     |     |  3.18E-5    |mA |
 |Logic and Logic reference current              |    27 deg C         |   2.79   |     |  3.09    |nA |
 |Acquisiton Time              |    27 deg C         |      | 1.49    |      | ns |
@@ -205,6 +205,21 @@ Where Vin              = input voltage
       This can be inferred from the characteristic curve itself.
 
       However, for clarity one could opt to plot output and clock curves together.
+
+ **10. Output Impedance:**
+
+ The output impedance of a Sample and Hold (S&H) circuit is an important parameter that affects the circuit's performance, especially when driving a load or interfacing with subsequent stages. It reflects how the output voltage changes in response to variations in output current. Here's how you can find the output impedance of a S&H circuit.
+
+ It can be found from the characteristic curve itself:
+
+Observe the ratio of change in output voltage and output current for a given time range.
+
+This ratio gives us the output impedance.
+
+**11. HOLD Step**
+
+ The hold step in a Sample and Hold (S&H) circuit refers to the difference between the sampled input voltage and the voltage held at the output during the hold phase. It quantifies how accurately the S&H circuit can hold the sampled value without significant droop or distortion. A smaller hold step indicates better performance, as it means the circuit is accurately maintaining the sampled value.
+
       
 # Scope for improvement 
 
