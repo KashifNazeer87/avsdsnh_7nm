@@ -83,8 +83,30 @@ The capacitor charges up exponentially, reaching approximately 63% of the final 
 To achieve high accuracy (e.g., settling to within 0.01% of the final value), multiple time constants are needed, leading to a longer acquisition time.
 
 **2. Aperture Time:** 
+Aperture time in a Sample and Hold (S&H) circuit is the time window during which the circuit transitions from sampling the input signal to holding a fixed value. It represents the uncertainty in the exact instant when the S&H circuit actually stops tracking the input signal and begins holding the sampled value.
+In simpler terms, aperture time defines how precisely the S&H circuit captures the input signal at the intended sampling moment. It is particularly important in high-speed and high-frequency applications, as it affects the accuracy of the sampled signal.
 
 
+**3. Settling Time:** 
+Settling time in a Sample and Hold (S&H) circuit refers to the time required for the output of the circuit to stabilize or "settle" to the final value of the input signal after switching from the sample mode to the hold mode. During this time, the S&H circuit's output needs to reach the desired voltage (typically within a specified error tolerance) after experiencing the transients caused by switching.
+The time constant T is given by:
+τ= Ron x Ch
+Where 
+Ron - switching on resistance
+Ch - Hold capacitance
+
+The output voltage of capacitor follows an exponential decay after switching:
+V(t)=Vfinal (1−e^(t/τ))
+​
+In one time constant (𝜏), the output settles to about 63% of the final value. Typically, five time constants (5τ) are needed for the output to settle to within 99% of the final value.
+
+**4. Droop**
+Voltage droop in a Sample and Hold (S&H) circuit refers to the gradual decrease in the voltage stored on the holding capacitor during the hold phase. This droop occurs because of various leakage mechanisms that slowly discharge the capacitor, causing the output voltage to deviate from the initially sampled value over time.
+
+*Analytically* 
+
+ 
+ 
 
 
 
@@ -107,7 +129,7 @@ To achieve high accuracy (e.g., settling to within 0.01% of the final value), mu
 
 - Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 
-- Dr. Skandha Deepsita, Teaching Assistant, VLSI System Design (VSD) Corp. Pvt. Ltd.
+- Dr. Skandha Deepsita, Physical Design Consultant.
 
 
 
