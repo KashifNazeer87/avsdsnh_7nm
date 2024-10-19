@@ -274,7 +274,7 @@ To attain their values, we use print command and find the current supplied by th
 
 - [Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)
 
-- [Dr. Skandha Deepsita, Physical Design Consultant.VLSI System Design (VSD) Corp. Pvt. Ltd.](https://www.linkedin.com/in/dr-skandha-deepsita-s-027433ba/)
+- [Dr. Skandha Deepsita, Physical Design Consultant.](https://www.linkedin.com/in/dr-skandha-deepsita-s-027433ba/)
 
 
 
