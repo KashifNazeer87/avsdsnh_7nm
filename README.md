@@ -150,7 +150,9 @@ Input bias current is often measured across a temperature range because it is hi
    print i(vector of input voltage that contains current)
 
   This gives us the typical value of current.
-
+  
+- For maximum and minimum values
+- 
  We perform a temperature sweep from 0 deg C to 110 deg C 
 
  This sweep gives us the minimum and maximum values of input bias current.
