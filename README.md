@@ -64,6 +64,10 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 
 ![sampleandhold](https://github.com/user-attachments/assets/fe18f869-0d1b-4f1c-bed4-04aa3bfc2f0b)
 
+# Explanation of parameters 
+
+![parameter related to time and droop for snh](https://github.com/user-attachments/assets/0d868e85-30cd-454e-ae57-8e4152ae93ba)
+
 
 
 
