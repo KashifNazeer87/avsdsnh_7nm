@@ -18,7 +18,7 @@ This table summarizes the key parameters and operating conditions of the designe
 |Gain Error              |     27 deg C        |      | 1.8 E-6    |      | % |
 |Feedthrough reduction ratio              |    27 deg C         |      |  10   |      | dB|
 |Output impedance              |     27 deg C        |      |  1.05   | 58.4     | Mohm |
-|HOLD Step              |      27 deg C       |      | 0.01     |      |mV |
+|HOLD Step              |      27 deg C       |      | 0.1     |      |mV |
 |Supply current              |      27 deg C       | 0.0135     |     |  3.18E-5    |mA |
 |Logic and Logic reference current              |    27 deg C         |   2.79   |     |  3.09    |nA |
 |Acquisiton Time              |    27 deg C         |      | 1.49    |      | ns |
@@ -220,7 +220,13 @@ This ratio gives us the output impedance.
 
  The hold step in a Sample and Hold (S&H) circuit refers to the difference between the sampled input voltage and the voltage held at the output during the hold phase. It quantifies how accurately the S&H circuit can hold the sampled value without significant droop or distortion. A smaller hold step indicates better performance, as it means the circuit is accurately maintaining the sampled value.
 
-      
+ It can be observed from the characteristic curve and found analytically:
+ 
+ HOLD Step= Vsample -  Vhold
+
+ Vsample = input voltage just before the hold phase begins
+ Vhold   = output voltage immediately after the hold phase begins
+ 
 # Scope for improvement 
 
 1. Improve Transistor Sizing: Optimize the sizing of the sampling and holding transistors to reduce leakage and ensure proper switching.
