@@ -24,7 +24,7 @@ This table summarizes the key parameters and operating conditions of the designe
 |Acquisiton Time              |    27 deg C         |      | 1.49    |      | ns |
 |Aperture time              |  27 deg C           |      | 0.00237   |      |ns |
 |Settling Time              |  27 deg C           |      | 0.02          |      | ns   |         
-|Droop              |  27 deg C           | 0.2     | 0.217     |  0.237    | mV |
+|Droop              |  27 deg C           | 0.01     | 0.03     |  0.09    | mV |
 
 
 # Bootstrap sample and hold circuit overview:
