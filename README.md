@@ -67,7 +67,22 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 
 # Explanation of parameters 
 
+The figure below depict the various timing related and voltage droop replated parameters. These are acquired by visual inspection of the transient characteristic of the circuit.
+
 ![parameter related to time and droop for snh](https://github.com/user-attachments/assets/0d868e85-30cd-454e-ae57-8e4152ae93ba)
+
+**1. Acquisition Time:**   
+Acquisition time refers to the time required for a Sample and Hold (S&H) circuit to sample and acquire an accurate representation of the input signal. More specifically, it's the period during which the input signal is connected to the sampling capacitor, allowing the voltage across the capacitor to settle to within a certain accuracy of the input signal's voltage.
+
+The acquisition time is governed by the RC time constant of the circuit:
+𝜏=𝑅𝑂𝑁 × 𝐶𝐻
+
+The capacitor charges up exponentially, reaching approximately 63% of the final value in one time constant 
+𝜏
+τ, 86% in two time constants, and about 99% in five time constants.
+To achieve high accuracy (e.g., settling to within 0.01% of the final value), multiple time constants are needed, leading to a longer acquisition time.
+
+**2. Aperture Time:** 
 
 
 
