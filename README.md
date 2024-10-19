@@ -21,7 +21,7 @@ This table summarizes the key parameters and operating conditions of the designe
 |HOLD Step              |      27 deg C       |      | 0.05     |      |ns |
 |Supply current              |      27 deg C       | 0.0135     |     |  3.18E-5    |mA |
 |Logic and Logic reference current              |    27 deg C         |   2.79   |     |  3.09    |nA |
-|Acquisiton Time              |    27 deg C         |      |     |      | |
+|Acquisiton Time              |    27 deg C         |      | 1.49    |      | ns |
 |Aperture time              |  27 deg C           |      | 1.49    |      |ns |
 |Droop              |  27 deg C           | 0.2     | 0.217     |  0.237    | mV |
 
