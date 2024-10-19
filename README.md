@@ -241,6 +241,15 @@ We found supply current by plotting the current supplied by Vdd
 
 ![supplycurrent](https://github.com/user-attachments/assets/adf14575-3086-4bf1-823c-ba39d4e00dcb)
 
+**13. Logic and Logic reference current**
+
+Logic current typically refers to the current that flows through the logic components of the S&H circuit, especially when digital signals are used to control the sampling switch (often a MOSFET). 
+
+Here it is referred to the CLK and CLK_Bar currents.
+
+To attain their values, we use print command and find the current supplied by the respective logics.
+
+
  
  
 # Scope for improvement 
