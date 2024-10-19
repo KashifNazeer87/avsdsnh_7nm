@@ -266,7 +266,8 @@ To attain their values, we use print command and find the current supplied by th
 1. [Analog Fundamentals: How Sample and Hold Circuits Work and Ensure ADC Accuracy](https://www.digikey.com/en/articles/analog-fundamentals-sample-and-hold-circuits-work-adc-accuracy)
 2. [CMOS switched-op-amp-based sample-and-hold circuit](https://www.researchgate.net/publication/2978189_CMOS_switched-op-amp-based_sample-and-hold_circuit)
 3. [The Design of a Bootstrapped Sampling Circuit](https://www.seas.ucla.edu/brweb/papers/Journals/BR_SSCM_1_2021.pdf)
-
+4. [SAR Analog-To-Digital Converter](https://github.com/ADC-TEAM2020/avsdadc_3v3/tree/master)
+5. [LF398 Datasheet (PDF)](https://www.alldatasheet.com/datasheet-pdf/view/95569/ETC/LF398.html)
 
 # Acknowledgement
 
