@@ -136,6 +136,29 @@ Av is Gain of the buffer.
 Vout is the output voltage.
 
 
+**6. Input bias current**
+Input bias current in a Sample and Hold (S&H) circuit refers to the small amount of current that flows into the input terminals of active components (such as buffer amplifiers or op-amps) used in the circuit. This current is typically associated with MOSFET gates or bipolar transistor bases in the input stage of amplifiers and can impact the accuracy of the sampled voltage by introducing small errors over time.
+
+In an ideal amplifier or switch, no current should flow into the input terminals. However, in real-world components (e.g., op-amps or MOSFET gates), there is a small input bias current due to imperfections in the transistors used in the input stage.
+
+Input bias current is often measured across a temperature range because it is highly temperature-dependent, meaning that its magnitude can change significantly with variations in temperature. Understanding how input bias current behaves over a range of temperatures is crucial, particularly for precision circuits like Sample and Hold (S&H) circuits, because temperature fluctuations can introduce errors that affect the performance and accuracy of the circuit.
+
+- For operational temperature:
+
+  We print the value of input current for a DC sweep from 0 to 0.7 mV.
+  Syntax
+   print i(vector of input voltage that contains current)
+
+  This gives us the typical value of current.
+
+ We perform a temperature sweep from 0 deg C to 110 deg C 
+
+ This sweep gives us the minimum and maximum values of input bias current.
+
+ ![offset temp](https://github.com/user-attachments/assets/74913764-3921-4578-bb47-1c1169a93021)
+
+
+
 
 # Scope for improvement 
 
