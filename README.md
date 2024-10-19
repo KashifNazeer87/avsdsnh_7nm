@@ -23,6 +23,7 @@ This table summarizes the key parameters and operating conditions of the designe
 |Logic and Logic reference current              |    27 deg C         |   2.79   |     |  3.09    |nA |
 |Acquisiton Time              |    27 deg C         |      | 1.49    |      | ns |
 |Aperture time              |  27 deg C           |      | 0.00237   |      |ns |
+|Settling Time              |  27 deg C           |      | 0.02          |      | ns   |         
 |Droop              |  27 deg C           | 0.2     | 0.217     |  0.237    | mV |
 
 
