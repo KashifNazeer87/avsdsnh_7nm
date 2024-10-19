@@ -82,6 +82,17 @@ The final sampled voltage would appear here, and droop/leakage behavior might be
 3. Use alias filter to get rid of alias error.
 
 
+# References:
+
+1. https://www.digikey.com/en/articles/analog-fundamentals-sample-and-hold-circuits-work-adc-accuracy
+
+
+# Acknowledgement
+
+. Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+. Dr. Skandha Deepsita, Teaching Assistant, VLSI System Design (VSD) Corp. Pvt. Ltd.
+
+
 
 
 
