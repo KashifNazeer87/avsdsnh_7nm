@@ -227,7 +227,7 @@ This ratio gives us the output impedance.
  Vsample = input voltage just before the hold phase begins
  Vhold   = output voltage immediately after the hold phase begins
 
- **12. Supply Current **
+ **12. Supply Current**
 
  The supply current of a Sample and Hold (S&H) circuit is the current drawn from the power supply to operate the circuit components, such as the sampling switch, holding capacitor, and any buffering amplifiers. The exact value of the supply current can vary significantly depending on several factors, including the design, technology used, and operating conditions.
 
