@@ -40,7 +40,7 @@ A bootstrapped Sample and Hold (S&H) circuit is an enhanced version of the tradi
 
 The circuit uses multiple nmos and pmos FinFET transistors for switching purposes.
 Transistors are configured as switches for sampling the input signal, bootstrapping, and for holding the sampled voltage on the capacitor.
-Capacitors (C1, C2, C3, etc.):
+
 
 # Capacitors 
 
@@ -51,7 +51,7 @@ C1, C2, and C3 (20pF and 2pF) serve as hold capacitors, keeping the sampled volt
 # Clock Signals
 Two clock signals (CLK and CLK_BAR) are present, where CLK seems to be the main clock signal, and CLK_BAR is its complement.
 These clocks control when the circuit samples the input and when it enters the hold phase. CLK would typically enable the sampling phase, while CLK_BAR would enable the hold phase.
-Input Signals:
+
 
 # Input Signal
 The input signal (VIN) is connected to transistors and is sampled at the appropriate clock phase.
@@ -148,6 +148,7 @@ Input bias current is often measured across a temperature range because it is hi
 
   We print the value of input current for a DC sweep from 0 to 0.7 mV.
   Syntax
+  
    print i(vector of input voltage that contains current)
 
   This gives us the typical value of current.
