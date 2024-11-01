@@ -251,6 +251,9 @@ Here it is referred to the CLK and CLK_Bar currents.
 
 To attain their values, we use print command and find the current supplied by the respective logics.
 
+# Layout
+
+![samplaeandhold layout](https://github.com/user-attachments/assets/d3ea87fa-b9f2-47fc-884b-d9be3bd778ee)
 
  
  
