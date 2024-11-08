@@ -44,8 +44,8 @@ Transistors are configured as switches for sampling the input signal, bootstrapp
 
 # Capacitors 
 
-Capacitors are used to store the voltage during the sample-and-hold operation.
-C1, C2, and C3 (20pF and 2pF) serve as hold capacitors, keeping the sampled voltage stable during the "hold" phase.
+Capacitors are used to store the voltage during the sample-and-hold operation and for bootstrapping input voltage.
+ and C3 (20pF and 2pF) serve as hold capacitors, keeping the sampled voltage stable during the "hold" phase.
 
 
 # Clock Signals
