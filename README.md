@@ -6,7 +6,7 @@ Implementing a Sample and Hold (S&H) circuit in 7nm technology, particularly in 
 
 
 
-# Sample and Hold Circuit- Key parameters
+# Sample and Hold Circuit- Key parameters 
 This table summarizes the key parameters and operating conditions of the designed Bootstrapped sample and hold circuit. The key parameters point towards the performance of a sample and hold switch.  
 
 
